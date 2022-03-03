@@ -1,5 +1,5 @@
-Require A_intf.
-Module Export it : A_intf.it.
+Require A.
+Module Export A : A.interface.
 Definition x := 0.
 Definition y := 1.
-End it.
+End A.

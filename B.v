@@ -1,3 +1,6 @@
-Require B_intf.
-Declare Module B : B_intf.it.
+Require Import A.
+Module Type interface.
+Parameter foo : A.y = A.x + 1.
+End interface.
+Declare Module B : interface.
 Export B.
